@@ -23,7 +23,7 @@ int value_within_range(float val,float min,float max, const char* msg)
 {
   if(val < min || val > max)
   {
-    print_fun(const char* msg);
+    print_fun(msg);
     return 0;
   }
     return 1;
@@ -33,7 +33,7 @@ int value_within_range_with_no_min_val(float val,float max, const char* msg)
 {
   if(val > max)
   {
-    print_fun(const char* msg);
+    print_fun(msg);
     return 0;
   }
     return 1;
