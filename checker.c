@@ -15,7 +15,7 @@ Messages lang_sets[] = {
 };
 
 int value_within_range(float val,float min,float max, const char* msg)
-
+{
   if(val < min || val > max)
   {
     printf("%s\n",msg);
