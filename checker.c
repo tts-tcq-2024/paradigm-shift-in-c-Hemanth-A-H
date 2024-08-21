@@ -1,18 +1,8 @@
 #include <stdio.h>
 #include <assert.h>
+#include <checker.h>
 
 int language = 0; // 0 for English, 1 for German
-
-typedef struct {
-const char* temp_msg;
-const char* soc_msg;
-const char* charge_rate_msg;
-} Messages;
-
-Messages lang_sets[] = {
-{"Temperature out of range!","State of Charge out of range!","Charge Rate out of range!"},
-{"Temperatur außerhalb des zulässigen Bereichs!","Ladezustand außerhalb des zulässigen Bereichs!","Laderate außerhalb des zulässigen Bereichs!"}
-};
 
 void print_fun(const char* msg)
 {
