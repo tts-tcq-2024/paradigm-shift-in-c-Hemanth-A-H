@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
-#include <checker.h>
+#include "checker.h"
 
 int language = 0; // 0 for English, 1 for German
 
